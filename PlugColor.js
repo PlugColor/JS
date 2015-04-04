@@ -48,3 +48,6 @@ $('.room-background').css('background','url("http://i.imgur.com/EFXFnql.png")');
 // $(steam_other);
 // function steam_other(){
 // $('.span.emoji-2615').css('-webkit-animation','steps(5,end), infinite');}
+$(hover_dj_button);
+function hover_dj_button(){
+$('#dj-button:hover').css('color','purple');}
