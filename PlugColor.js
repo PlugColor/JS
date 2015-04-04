@@ -39,12 +39,12 @@ $('.room-background').css('background','url("http://i.imgur.com/EFXFnql.png")');
 // background-image: url(http://i.imgur.com/S9qLJLn.jpg)*/ /* BONUS: WINTER '14
 // background finish
 // animation of coffee (below) (working progress!...)
-$(coffee_pic);
-function coffee_pic(){
-$('.span.emoji-2615').css('background','url("http://i.imgur.com/34ZjpvK.png")');}
-$(steam_firefox);
-function steam_firefox(){
-$('.span.emoji-2615').css('animation','steps(5,end), infinite');}
-$(steam_other);
-function steam_other(){
-$('.span.emoji-2615').css('-webkit-animation','steps(5,end), infinite');}
+// $(coffee_pic);
+// function coffee_pic(){
+// $('.span.emoji-2615').css('background','url("http://i.imgur.com/34ZjpvK.png")');}
+// $(steam_firefox);
+// function steam_firefox(){
+// $('.span.emoji-2615').css('animation','steps(5,end), infinite');}
+// $(steam_other);
+// function steam_other(){
+// $('.span.emoji-2615').css('-webkit-animation','steps(5,end), infinite');}
