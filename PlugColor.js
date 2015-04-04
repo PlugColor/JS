@@ -47,6 +47,8 @@ $('.room-background').css('background','url("http://i.imgur.com/EFXFnql.png")');
 // $(steam_other);
 // function steam_other(){
 // $('.span.emoji-2615').css('-webkit-animation','steps(5,end), infinite');}
-$('#dj-button:hover').hover(hover_dj_button);
-function hover_dj_button(){
-$('#dj-button:hover').css('color','purple');}
+$('#dj-button').hover(function(){
+$('#dj-button').css('color','white');
+}, function(){
+$('#dj-button').css('color','purple');
+}); 
