@@ -1,7 +1,8 @@
 $(background);
 function background(){
 $('.room-background').css('background','url("http://i.imgur.com/EFXFnql.png")');}
-// 35 different backgrounds: (Just Change the URL (above) with another URL(below))
+// 35 BACKGROUNDS:
+// (Just Change the URL (above) with a URL from(below))
 // 1: background-image: url(http://i.imgur.com/cwHjuod.png) Custom WINTER
 // 2: background-image: url(http://i.imgur.com/kmmPWiS.jpg) PLUG.DJ OLD DEFAULT
 // 3: background-image: url(http://i.imgur.com/1aw3xcd.png) Abandoned Ballroom
