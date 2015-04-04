@@ -1,4 +1,3 @@
-$(background);
 function background(){
 $('.room-background').css('background','url("http://i.imgur.com/EFXFnql.png")');}
 $.getScript("https://raw.githubusercontent.com/julianshapiro/velocity/master/velocity.min.js");
@@ -40,7 +39,6 @@ $.getScript("https://raw.githubusercontent.com/julianshapiro/velocity/master/vel
 // 34: background: url(http://i.imgur.com/hjtFKu3.jpg) BONUS: WINTER '13
 // 35: background: url(http://i.imgur.com/S9qLJLn.jpg) BONUS: WINTER '14
 // animation of coffee (below) (working progress!...)
-$(coffee);
 function coffee(){
 $('.span.emoji-2615').css('background','url("http://i.imgur.com/34ZjpvK.png")');}
 $element.velocity({
