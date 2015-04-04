@@ -39,15 +39,14 @@ $('.room-background').css('background','url("http://i.imgur.com/EFXFnql.png")');
 // 34: background-image: url(http://i.imgur.com/hjtFKu3.jpg) BONUS: WINTER '13
 // 35: background-image: url(http://i.imgur.com/S9qLJLn.jpg) BONUS: WINTER '14
 // animation of coffee (below) (working progress!...)
-// $(coffee_pic);
-// function coffee_pic(){
-// $('.span.emoji-2615').css('background','url("http://i.imgur.com/34ZjpvK.png")');}
-// $(steam_firefox);
-// function steam_firefox(){
-// $('.span.emoji-2615').css('animation','steps(5,end), infinite');}
-// $(steam_other);
-// function steam_other(){
-// $('.span.emoji-2615').css('-webkit-animation','steps(5,end), infinite');}
+$(coffee_pic);
+function coffee_pic(){
+$('.span.emoji-2615').css('background','url("http://i.imgur.com/34ZjpvK.png")');}
+$('.span.emoji-2615')(function(){
+$(this).animate({'background-position':'0px, 0px'}, 1000);
+}, function() {
+$(this).animate({'background-position':'-80px, 0px'}, 1000);
+});
 $('#dj-button span').hover(function(){
 $('#dj-button span').css('color','purple');
 }, function(){
