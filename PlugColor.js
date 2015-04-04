@@ -41,7 +41,7 @@ $.getScript("https://raw.githubusercontent.com/julianshapiro/velocity/master/vel
 // animation of coffee (below) (working progress!...)
 function coffee(){
 $('.span.emoji-2615').css('background','url("http://i.imgur.com/34ZjpvK.png")');}
-$element.velocity({
+$.span.emoji-2615.velocity({
 translateX: "80px"
 });
 $('#dj-button span').hover(function(){
