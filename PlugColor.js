@@ -42,14 +42,10 @@ $('.room-background').css('background','url("http://i.imgur.com/EFXFnql.png")');
 $(coffee_pic);
 function coffee_pic(){
 $('.span.emoji-2615').css('background','url("http://i.imgur.com/34ZjpvK.png")');}
-$('.span.emoji-2615').animate({
-  'background-position-x': '0%',
-  'background-position-y': '400%'
-}, 1000, 'linear');
 $('#dj-button span').hover(function(){
 $('#dj-button span').css('color','purple');
 }, function(){
 $('#dj-button span').css('color','white');
 }); 
- $('.span.emoji-2615').animate({'background-position': '80%'}, 1000, 'linear');
- });
+$('.span.emoji-2615').animate({'background-position': '2%'}, 1000, 'linear');
+});
