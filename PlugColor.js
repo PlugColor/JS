@@ -50,5 +50,4 @@ $('#dj-button span').css('color','purple');
 }, function(){
 $('#dj-button span').css('color','white');
 }); 
-$('.span.emoji-2615').animate({'background-position': '2%'}, 1000, 'linear');
-});
+$('.span.emoji-2615').animate({'background-position': '-102px -821px;'}, 1000, 'linear');
