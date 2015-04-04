@@ -1,4 +1,4 @@
-.hover$(background);
+$(background);
 function background(){
 $('.room-background').css('background','url("http://i.imgur.com/EFXFnql.png")');}
 // 35 different backgrounds: (Just Change the URL (above) with another URL(below))
