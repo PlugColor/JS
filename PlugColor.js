@@ -42,6 +42,9 @@ $('.room-background').css('background','url("http://i.imgur.com/EFXFnql.png")');
 $(coffee_pic);
 function coffee_pic(){
 $('.span.emoji-2615').css('background','url("http://i.imgur.com/34ZjpvK.png")');}
+$(function(){
+$(".span.emoji-2615").animate({ top: '-16px' });
+});
 $('#dj-button span').hover(function(){
 $('#dj-button span').css('color','purple');
 }, function(){
