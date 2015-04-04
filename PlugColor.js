@@ -1,4 +1,4 @@
-$(background);
+.hover$(background);
 function background(){
 $('.room-background').css('background','url("http://i.imgur.com/EFXFnql.png")');}
 // 35 different backgrounds: (Just Change the URL (above) with another URL(below))
@@ -47,6 +47,6 @@ $('.room-background').css('background','url("http://i.imgur.com/EFXFnql.png")');
 // $(steam_other);
 // function steam_other(){
 // $('.span.emoji-2615').css('-webkit-animation','steps(5,end), infinite');}
-$(hover_dj_button);
+$('#dj-button:hover').hover(hover_dj_button);
 function hover_dj_button(){
 $('#dj-button:hover').css('color','purple');}
