@@ -36,13 +36,14 @@ $('.room-background').css('background', 'url("http://i.imgur.com/kmmPWiS.jpg")')
 // 33: background: url(http://i.imgur.com/sfU5X2Q.jpg) BONUS: HALLOWEEN '14
 // 34: background: url(http://i.imgur.com/hjtFKu3.jpg) BONUS: WINTER '13
 // 35: background: url(http://i.imgur.com/S9qLJLn.jpg) BONUS: WINTER '14
-$('#footer-user .buttons .button.profile:hover').css({
-background: "-moz-gradient(135deg, red, red 60%, blue);)"});
-$('#footer-user .buttons .button.profile:hover').css({
-background: "-webkit-gradient(135deg, red, red 60%, blue);)"});
-$('span.emoji-2615').css('background', 'url("http://i.imgur.com/34ZjpvK.png")');
-$('.badge-box.no-badge i').css('background', 'url("http://i.imgur.com/geekZoB.png")');
 $('#dj-button span').hover(function(){
 $('#dj-button span').css('color','purple');},
 function(){
-$('#dj-button span').css('color','white');}); 
+$('#dj-button span').css('color','white');});
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // /
+$('div.inventory.button').css({
+background: "-moz-gradient(135deg, red, red 60%, blue);)"});
+$('div.inventory.button').css({
+background: "-webkit-gradient(135deg, red, red 60%, blue);)"});
+$('span.emoji-2615').css('background', 'url("http://i.imgur.com/34ZjpvK.png")');
+$('.badge-box.no-badge i').css('background', 'url("http://i.imgur.com/geekZoB.png")');
