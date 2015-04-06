@@ -37,17 +37,17 @@ $('.room-background').css('background', 'url("http://i.imgur.com/EFXFnql.png")')
 // 34: background: url(http://i.imgur.com/hjtFKu3.jpg) BONUS: WINTER '13
 // 35: background: url(http://i.imgur.com/S9qLJLn.jpg) BONUS: WINTER '14
 $('span.emoji-2615').css('background', 'url("http://i.imgur.com/34ZjpvK.png")');
-span.emoji-trollface{
+span.emoji-trollface {
 transform: rotate(-90deg);
--Moz-Transform: rotate(-90deg);
--Webkit-Transform: rotate(-90deg);
--ms-Transform: rotate(-90deg);
+-moz-transform: rotate(-90deg);
+-webkit-transform: rotate(-90deg);
+-ms-transform: rotate(-90deg);
 }
-span.emoji-trollface{
+span.emoji-trollface:hover {
 transition: 1.5s alternate linear;
--Moz-Transition: 1.5s alternate linear;
--Webkit-Transition: 1.5s alternate linear;
--ms-Transition: 1.5s alternate linear;
+-moz-transition: 1.5s alternate linear;
+-webkit-transition: 1.5s alternate linear;
+-ms-transition: 1.5s alternate linear;
 }
 $('#dj-button span').hover(function(){
 $('#dj-button span').css('color','purple');
