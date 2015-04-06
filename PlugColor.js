@@ -1,4 +1,4 @@
-$('.room-background').css('background', 'url("http://i.imgur.com/HG8mqaM.png")');
+$('.room-background').css('background', 'url("http://i.imgur.com/kmmPWiS.jpg")');
 // 35 BACKGROUNDS:
 // (Just Change the URL (above) with a URL from(below))
 // 1: background: url(http://i.imgur.com/cwHjuod.png) Custom WINTER
