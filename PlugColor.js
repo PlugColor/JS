@@ -37,7 +37,12 @@ $('.room-background').css('background', 'url("http://i.imgur.com/EFXFnql.png")')
 // 34: background: url(http://i.imgur.com/hjtFKu3.jpg) BONUS: WINTER '13
 // 35: background: url(http://i.imgur.com/S9qLJLn.jpg) BONUS: WINTER '14
 $('span.emoji-2615').css('background', 'url("http://i.imgur.com/34ZjpvK.png")');
-//
+$("span.emoji-trollface").css({
+ transform: 'translateY(10px)',
+ MozTransform: 'translateY(10px)',
+ WebkitTransform: 'translateY(10px)',
+ msTransform: 'translateY(10px)'
+})
 $('#dj-button span').hover(function(){
 $('#dj-button span').css('color','purple');
 },function(){
