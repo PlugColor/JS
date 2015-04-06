@@ -37,12 +37,12 @@ $('.room-background').css('background', 'url("http://i.imgur.com/EFXFnql.png")')
 // 34: background: url(http://i.imgur.com/hjtFKu3.jpg) BONUS: WINTER '13
 // 35: background: url(http://i.imgur.com/S9qLJLn.jpg) BONUS: WINTER '14
 $('span.emoji-2615').css('background', 'url("http://i.imgur.com/34ZjpvK.png")');
-$("span.emoji-trollface").css({
-transform: 'from {background-position: -119px -544px;} to {background-position: -130px -555px;}',
-MozTransform: 'from {background-position: -119px -544px;} to {background-position: -130px -555px;}',
-WebkitTransform: 'from {background-position: -119px -544px;} to {background-position: -130px -555px;}',
-msTransform: 'from {background-position: -119px -544px;} to {background-position: -130px -555px;}'
-});
+span.emoji-trollface{
+transform: rotate(-90deg);
+-Moz-Transform: rotate(-90deg);
+-Webkit-Transform: rotate(-90deg);
+-ms-Transform: rotate(-90deg);
+}
 $("span.emoji-trollface").css({
 transition: '1.5s alternate linear',
 MozTransition: '1.5s alternate linear',
