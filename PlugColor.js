@@ -42,7 +42,7 @@ function(){
 $('#dj-button span').css('color','white');});
 // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // /
 $('#footer-user .buttons .button.settings:hover').hover(function(){
-$('#footer-user .buttons .button.settings:hover').css('linear-gradient','left, 150deg, yellow, green, blue, indigo, violet, red, orange');},
+$('#footer-user .buttons .button.settings:hover').css('color','white');},
 function(){
-$('#footer-user .buttons .button.settings:hover').css('linear-gradient','left, 150deg, yellow, green, blue, indigo, violet, red, orange');});
+$('#footer-user .buttons .button.settings:hover').css('-moz-linear-gradient','left, 150deg, yellow, green, blue, indigo, violet, red, orange');});
 $('.badge-box.no-badge i').css('background', 'url("http://i.imgur.com/geekZoB.png")');
