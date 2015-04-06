@@ -38,10 +38,10 @@ $('.room-background').css('background','url("http://i.imgur.com/EFXFnql.png")');
 // 34: background: url(http://i.imgur.com/hjtFKu3.jpg) BONUS: WINTER '13
 // 35: background: url(http://i.imgur.com/S9qLJLn.jpg) BONUS: WINTER '14
 // animation of coffee (below) (working progress!...)
-function coffee(){
-$('span.emoji-2615').css('background','url("http://i.imgur.com/34ZjpvK.png")');}
-$('span.emoji-2615').animate({
-left:50,opacity:1},1000);
+// function qwerty(){
+// $('span.emoji-no.').css('background','url("http://i.imgur.com.png")');}
+function trollface() {
+$('span.emoji-trollface').animate({left:50,opacity:1},1500,'linear',start);}
 $('#dj-button span').hover(function(){
 $('#dj-button span').css('color','purple');
 }, function(){
