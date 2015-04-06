@@ -40,10 +40,9 @@ $('.room-background').css('background','url("http://i.imgur.com/EFXFnql.png")');
 // animation of coffee (below) (working progress!...)
 // function qwerty(){
 // $('span.emoji-no.').css('background','url("http://i.imgur.com.png")');}
-function trollface() {
-$('span.emoji-trollface').animate({left:50,opacity:1},1500,'linear',start);}
+function trollface(){
+$('span.emoji-trollface').animate({left:50,opacity:1},1500,'linear',trollface);}
 $('#dj-button span').hover(function(){
-$('#dj-button span').css('color','purple');
-}, function(){
-$('#dj-button span').css('color','white');
-}); 
+$('#dj-button span').css('color','purple');},
+function(){
+$('#dj-button span').css('color','white');}); 
