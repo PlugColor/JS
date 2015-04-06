@@ -42,6 +42,8 @@ transform: 'from {background-position: -119px -544px;} to {background-position: 
 MozTransform: 'from {background-position: -119px -544px;} to {background-position: -130px -555px;}',
 WebkitTransform: 'from {background-position: -119px -544px;} to {background-position: -130px -555px;}',
 msTransform: 'from {background-position: -119px -544px;} to {background-position: -130px -555px;}'
+});
+$("span.emoji-trollface").css({
 transition: '1.5s alternate linear',
 MozTransition: '1.5s alternate linear',
 WebkitTransition: '1.5s alternate linear',
