@@ -41,7 +41,11 @@ $('#dj-button span').css('color','purple');},
 function(){
 $('#dj-button span').css('color','white');});
 // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // /
-('div.settings.button:hover').css({
-background: "-moz-linear-gradient(left, #FF0000 0%, #00FFFF 100% !important)"});
+$('#gradient').css({
+   background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
+    background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
+$('div.settings.button:hover').css({
+background: "-webkit-gradient(linear, left top, right top, from #FF0000, to #00FFFF)"}).css({
+background: "-moz-linear-gradient(left, #FF0000 0%, 00FFFF 100%)"});
 $('span.emoji-2615').css('background', 'url("http://i.imgur.com/34ZjpvK.png")');
 $('.badge-box.no-badge i').css('background', 'url("http://i.imgur.com/geekZoB.png")');
