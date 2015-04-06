@@ -38,10 +38,10 @@ $('.room-background').css('background', 'url("http://i.imgur.com/EFXFnql.png")')
 // 35: background: url(http://i.imgur.com/S9qLJLn.jpg) BONUS: WINTER '14
 $('span.emoji-2615').css('background', 'url("http://i.imgur.com/34ZjpvK.png")');
 $("span.emoji-trollface").css({
- transform: 'translateY(10px)',
- MozTransform: 'translateY(10px)',
- WebkitTransform: 'translateY(10px)',
- msTransform: 'translateY(10px)'
+transition: '1.5s linear infinite alternate',
+MozTransform: '1.5s linear infinite alternate',
+WebkitTransform: '1.5s linear infinite alternate',
+msTransform: '1.5s linear infinite alternate'
 })
 $('#dj-button span').hover(function(){
 $('#dj-button span').css('color','purple');
