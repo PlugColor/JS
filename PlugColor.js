@@ -43,12 +43,12 @@ transform: rotate(-90deg);
 -Webkit-Transform: rotate(-90deg);
 -ms-Transform: rotate(-90deg);
 }
-$("span.emoji-trollface").css({
-transition: '1.5s alternate linear',
-MozTransition: '1.5s alternate linear',
-WebkitTransition: '1.5s alternate linear',
-msTransition: '1.5s alternate linear'
-});
+span.emoji-trollface{
+transition: 1.5s alternate linear;
+-Moz-Transition: 1.5s alternate linear;
+-Webkit-Transition: 1.5s alternate linear;
+-ms-Transition: 1.5s alternate linear;
+}
 $('#dj-button span').hover(function(){
 $('#dj-button span').css('color','purple');
 },function(){
