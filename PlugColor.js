@@ -36,19 +36,10 @@ $('.room-background').css('background', 'url("http://i.imgur.com/HG8mqaM.png")')
 // 33: background: url(http://i.imgur.com/sfU5X2Q.jpg) BONUS: HALLOWEEN '14
 // 34: background: url(http://i.imgur.com/hjtFKu3.jpg) BONUS: WINTER '13
 // 35: background: url(http://i.imgur.com/S9qLJLn.jpg) BONUS: WINTER '14
-/* $('span.emoji-2615').css('background', 'url("http://i.imgur.com/34ZjpvK.png")');
-span.emoji-trollface {
-transform: rotate(-90deg);
--moz-transform: rotate(-90deg);
--webkit-transform: rotate(-90deg);
--ms-transform: rotate(-90deg);
-}
-span.emoji-trollface:hover {
-transition: 1.5s alternate linear;
--moz-transition: 1.5s alternate linear;
--webkit-transition: 1.5s alternate linear;
--ms-transition: 1.5s alternate linear;
-} */
+$('span.emoji-2615').css('background', 'url("http://i.imgur.com/34ZjpvK.png")');
+$('.badge-box.no-badge i').css('background', 'url("http://i.imgur.com/geekZoB.png")');
+$('#footer-user .buttons .button.profile:hover').css('background-image',
+'linear-gradient(150deg, violet, red, orange, yellow, green, blue, indigo)');
 $('#dj-button span').hover(function(){
 $('#dj-button span').css('color','purple');
 },function(){
