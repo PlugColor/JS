@@ -41,9 +41,6 @@ $('#dj-button span').css('color','purple');},
 function(){
 $('#dj-button span').css('color','white');});
 // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // /
-$('#gradient').css({
-   background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
-    background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
 $('div.settings.button:hover').css({
 background: "-webkit-gradient(linear, left top, right top, from #FF0000, to #00FFFF)"}).css({
 background: "-moz-linear-gradient(left, #FF0000 0%, 00FFFF 100%)"});
