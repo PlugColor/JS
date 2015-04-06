@@ -36,9 +36,8 @@ $('.room-background').css('background', 'url("http://i.imgur.com/EFXFnql.png")')
 // 33: background: url(http://i.imgur.com/sfU5X2Q.jpg) BONUS: HALLOWEEN '14
 // 34: background: url(http://i.imgur.com/hjtFKu3.jpg) BONUS: WINTER '13
 // 35: background: url(http://i.imgur.com/S9qLJLn.jpg) BONUS: WINTER '14
-// animation of coffee (below) (working progress!...)
-// function qwerty(){
-// $('span.emoji-no.').css('background','url("http://i.imgur.com.png")');}
+$('span.emoji-2615').css('background', 'url("http://i.imgur.com/34ZjpvK.png")');
+//
 $('#dj-button span').hover(function(){
 $('#dj-button span').css('color','purple');
 },function(){
