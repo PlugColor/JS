@@ -1,5 +1,6 @@
 function background(){
-$('.room-background').css('.room-background','url("http://i.imgur.com/EFXFnql.png")');}
+$('.room-background').css('background','url("http://i.imgur.com/EFXFnql.png")');
+}
 // 35 BACKGROUNDS:
 // (Just Change the URL (above) with a URL from(below))
 // 1: background: url(http://i.imgur.com/cwHjuod.png) Custom WINTER
@@ -41,8 +42,9 @@ $('.room-background').css('.room-background','url("http://i.imgur.com/EFXFnql.pn
 // function qwerty(){
 // $('span.emoji-no.').css('background','url("http://i.imgur.com.png")');}
 function trollface(){
-$('span.emoji-trollface').animate({left:50,opacity:1},1500,'linear',trollface);}
+$('span.emoji-trollface').animate({left:50,opacity:1},1500,'linear',trollface);
+}
 $('#dj-button span').hover(function(){
-$('#dj-button span').css('color','purple');},
-function(){
+$('#dj-button span').css('color','purple');
+},function(){
 $('#dj-button span').css('color','white');}); 
