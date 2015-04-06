@@ -41,8 +41,8 @@ $('#dj-button span').css('color','purple');},
 function(){
 $('#dj-button span').css('color','white');});
 // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // /
-$('#footer-user .buttons .button.settings:hover').css({
-background: "-webkit-gradient(linear, left top, right top, from #FF0000, to #00FFFF)"}).css({
-background: "-moz-linear-gradient(left, #FF0000 0%, 00FFFF 100%)"});
-$('span.emoji-2615').css('background', 'url("http://i.imgur.com/34ZjpvK.png")');
+$('#footer-user .buttons .button.settings:hover').hover(function(){
+$('#footer-user .buttons .button.settings:hover').css('linear-gradient','left, 150deg, yellow, green, blue, indigo, violet, red, orange');},
+function(){
+$('#footer-user .buttons .button.settings:hover').css('linear-gradient','left, 150deg, yellow, green, blue, indigo, violet, red, orange');});
 $('.badge-box.no-badge i').css('background', 'url("http://i.imgur.com/geekZoB.png")');
