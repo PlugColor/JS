@@ -41,7 +41,7 @@ $('#dj-button span').css('color','purple');},
 function(){
 $('#dj-button span').css('color','white');});
 // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // /
-('#footer-user .buttons .button.settings:hover').css({
-background: "-moz-linear-gradient(left, #FF0000 0%, #00FFFF 100%)"});
+('div.settings.button:hover').css({
+background: "-moz-linear-gradient(left, #FF0000 0%, #00FFFF 100% !important)"});
 $('span.emoji-2615').css('background', 'url("http://i.imgur.com/34ZjpvK.png")');
 $('.badge-box.no-badge i').css('background', 'url("http://i.imgur.com/geekZoB.png")');
