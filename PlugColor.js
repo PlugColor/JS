@@ -1,6 +1,5 @@
 function background(){
 $('.room-background').css('background','url("http://i.imgur.com/EFXFnql.png")');}
-$.getScript("https://raw.githubusercontent.com/julianshapiro/velocity/master/velocity.min.js");
 // 35 BACKGROUNDS:
 // (Just Change the URL (above) with a URL from(below))
 // 1: background: url(http://i.imgur.com/cwHjuod.png) Custom WINTER
@@ -40,10 +39,9 @@ $.getScript("https://raw.githubusercontent.com/julianshapiro/velocity/master/vel
 // 35: background: url(http://i.imgur.com/S9qLJLn.jpg) BONUS: WINTER '14
 // animation of coffee (below) (working progress!...)
 function coffee(){
-$('.span.emoji-2615').css('background','url("http://i.imgur.com/34ZjpvK.png")');}
-$.span.emoji-2615.velocity({
-translateX: "80px"
-});
+$('span.emoji-2615').css('background','url("http://i.imgur.com/34ZjpvK.png")');}
+$('span.emoji-2615').animate({
+left:50,opacity:1},1000);
 $('#dj-button span').hover(function(){
 $('#dj-button span').css('color','purple');
 }, function(){
