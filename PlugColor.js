@@ -37,7 +37,7 @@ $('.room-background').css('background', 'url("http://i.imgur.com/kmmPWiS.jpg")')
 // 34: background: url(http://i.imgur.com/hjtFKu3.jpg) BONUS: WINTER '13
 // 35: background: url(http://i.imgur.com/S9qLJLn.jpg) BONUS: WINTER '14
 $('#footer-user .buttons .button.profile:hover').css({
-background: "gradient(linear, left top, left bottom, from(#ccc), to(#000))" 
+background: "-moz-linear-gradient(135deg, red, red 60%, blue);)" 
 });
 $('span.emoji-2615').css('background', 'url("http://i.imgur.com/34ZjpvK.png")');
 $('.badge-box.no-badge i').css('background', 'url("http://i.imgur.com/geekZoB.png")');
