@@ -1,5 +1,5 @@
-javascript:(function(){
-var linkNode=document.createElement('link');
-linkNode.rel='stylesheet';
-linkNode.href='https://raw.githubusercontent.com/PlugColor/CSS/master/PlugColor.css';
-document.getElementsByTagName('head')[0].appendChild(linkNode);})();
+var linkElem = document.createElement('link');
+document.getElementsByTagName('head')[0].appendChild(linkElem);
+linkElem.rel = 'stylesheet';
+linkElem.type = 'text/css';
+linkElem.href = 'https://rawgit.com/PlugColor/CSS/master/PlugColor.css';
